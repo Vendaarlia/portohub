@@ -1,0 +1,110 @@
+.text {
+    color: #f0f0f0;
+    text-transform: uppercase;
+    font-size: 4rem;
+    word-break: break-word;
+    font-family: 'Abril Fatface', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    height: 300px;
+
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.imgcolum {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.imgcolum:hover {
+    filter: grayscale(10%);
+}
+
+section.gall {
+    margin-top: 0.4%;
+    display: flex;
+    height: 30vh;
+}
+
+@media (max-width:599px) {
+    section.gall {
+        height: 15vh;
+    }
+}
+
+.card {
+    margin: 0.2%;
+    background-image: url('../img/2');
+    background-position: center center;
+    background-size: cover;
+    filter: grayscale(100%);
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.card:hover {
+    filter: grayscale(10%);
+}
+
+a {
+    cursor: crosshair;
+}
+
+@media (max-width:599px) {
+}
+
+.footer.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+@media (max-width:599px) {
+    .footer.row {
+        flex-wrap: wrap;
+    }
+}
+
+.col {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width:599px) {
+    .col {
+        order: 1;
+    }
+}
+
+.col-right {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-color: #f0f0f0;
+    border-top: 2px solid #f0f0f0;
+    align-items: center;
+
+    @media (max-width:599px) {
+        .col-righ {
+            order: 3;
+        }
+    }
+}

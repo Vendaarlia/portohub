@@ -1,0 +1,65 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    background-color: #101010;
+}
+
+.text {
+    color: #f0f0f0;
+    text-transform: uppercase;
+    font-size: 4rem;
+    word-break: break-word;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.row--spkata {
+    width: 100svw;
+    display: flex;
+}
+
+.img--spkata {
+    filter: grayscale(1);
+}
+
+.img--spkata:hover {
+    filter: grayscale(0);
+}
+
+.tumbnail {
+    filter: grayscale(1);
+}
+
+.tumbnail:hover {
+    cursor: crosshair;
+    filter: grayscale(0);
+}
+
+.footer.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+@media (max-width:599px) {
+    .footer.row {
+        flex-wrap: wrap;
+    }
+}
+
+.col {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.col-side {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-color: #f0f0f0;
+    border-top: 2px solid #f0f0f0;
+    align-items: center;
+}
