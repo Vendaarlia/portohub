@@ -1,0 +1,96 @@
+@media (max-width:599px) {
+    .btn {
+        min-height: 4rem;
+        min-width: 5rem;
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width:599px) {
+    .row--spkata {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:599px) {
+    .pspkata {
+        font-size: 0.3rem;
+    }
+}
+
+@media (max-width:599px) {
+    .footer.row {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* portofolio */
+
+@media (max-width:599px) {
+    .linkimg {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* contact */
+
+@media (max-width:599px) {
+    .texttrailaction {
+        display: none;
+    }
+}
+
+
+/* aboute */
+
+@media (max-width:599px) {
+    .rowab {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:599px) {
+    .calimg {
+        width: 100%;
+        order: 1;
+    }
+
+    .cal {
+        width: 100%;
+        order: 2;
+    }
+}
+
+
+/* accordions */
+
+@media screen and (max-width:500px){
+    .right_part {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:599px) {
+    .callaction {
+        text-align: left;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:599px) {
+    .pabout {
+        padding-right: 0%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:599px) {
+    dev.wrappsk {
+        flex-wrap: wrap;
+    }
+}
+
+/* link hover img */
